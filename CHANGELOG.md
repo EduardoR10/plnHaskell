@@ -1,4 +1,4 @@
-# Revision history for myfirstapphaskell
+# Revision history for PROGR-LOG-FUNC-EJ2025-1S7A
 
 ## 0.1.0.0 -- YYYY-mm-dd
 
