@@ -2,9 +2,9 @@ module Main where
 
 fizzbuzz :: Int -> String
 fizzbuzz n
-    | n `mod` 3 == 0 && n `mod` 5 == 0 = "fizzbuzz!"
-    | n `mod` 3 == 0 = "buzz!"
-    | n `mod` 5 == 0 = "fizz!"
+    | n `mod` 3 == 0 && n `mod` 5 == 0 = "fizzbuzz"
+    | n `mod` 3 == 0 = "buzz"
+    | n `mod` 5 == 0 = "fizz"
     | n > 0 && n < 20 = 
         let unicos = words "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen" 
         in unicos !! (n - 1)
@@ -28,4 +28,4 @@ main = do
     let n = read input :: Int
     if n < 1 || n > 100
         then putStrLn "Solo admite del 1 al 100"
-        else putStrLn (fizzbuzz n)
+        else putStrLn (fizzbuzz n ++ "!")
