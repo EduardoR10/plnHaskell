@@ -57,3 +57,4 @@ main = do
     if n < 0 || n > 1000000
         then putStrLn "Debe ser un número entre 0 y 1000000"
         else putStrLn (fizzbuzz n)
+
